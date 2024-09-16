@@ -49,8 +49,8 @@ export default function SectionFour() {
           <li>Subscribe to our newsletter for updates on upcoming estate sales and special offers.</li>
           <li>
             <form className={styles.newsletter} onSubmit={handleSubmit}>
-              <input name="firstName" type="text" placeholder='Name' onChange={handleChange} />
-              <input name="email" type="email" placeholder='Enter your email' onChange={handleChange} />
+              <input name="firstName" type="text" placeholder='Name' onChange={handleChange} required/>
+              <input name="email" type="email" placeholder='Enter your email' onChange={handleChange} required/>
               <button>Submit</button>
             </form>
           </li>
